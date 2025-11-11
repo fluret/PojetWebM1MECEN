@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
 :root {
     --primary-color: #C1B086;
     --shadow-main: 6px 6px 6px #000000;
@@ -12,7 +14,9 @@ html, body{
     margin: 0;
     padding: 0;
     height: 100vh;
+    width: 100vw;
     overflow: hidden;
+    font-family: var(--font-main);
 }
 
 header, #about, #amenities, #rooms, #restaurant, #gallery {
