@@ -2,10 +2,11 @@
     --primary-color: #C1B086;
 }
 
-html, body {
+html, body{
     margin: 0;
     padding: 0;
     height: 100vh;
+    overflow: hidden;
 }
 
 header, #about, #amenities, #rooms, #restaurant, #gallery {
