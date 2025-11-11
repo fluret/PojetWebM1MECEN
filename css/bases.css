@@ -1,5 +1,11 @@
 :root {
     --primary-color: #C1B086;
+    --shadow-main: 6px 6px 6px #000000;
+    --shadow-soft: 0 13px 43px 0 rgb(37 46 89/10%);
+    --border-main: 2px solid var(--primary-color);
+    --border-thick: 4px solid var(--primary-color);
+    --transition-smooth: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    --font-main: 'Roboto Slab', serif;
 }
 
 html, body{
@@ -32,8 +38,8 @@ header, #about, #amenities, #rooms, #restaurant, #gallery {
         background-image: url("../pics/back03.jpg");
         background-repeat: no-repeat;
         background-size:cover;
-        border-bottom: 6px solid var(--primary-color);/* Ligne à ajouter */
-        border-style: none none groove none;/* Ligne à ajouter */
+        border-bottom: 6px solid var(--primary-color);
+        border-style: none none groove none;
     }
 }
 
