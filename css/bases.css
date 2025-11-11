@@ -1,3 +1,7 @@
+:root {
+    --primary-color: #C1B086;
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -21,14 +25,18 @@ header, #about, #amenities, #rooms, #restaurant, #gallery {
     background-color: #18c753;
 }
 
-.headerall {
+#about, #amenities, #rooms, #restaurant, #gallery {
+    .headerall {
+        grid-area: headerall;
+        background-image: url("../pics/back03.jpg");
+        background-repeat: no-repeat;
+        background-size:cover;
+        border-bottom: 6px solid var(--primary-color);/* Ligne à ajouter */
+        border-style: none none groove none;/* Ligne à ajouter */
+    }
+}
+
+header .headerall {
     grid-area: headerall;
     background-color: #6ca5df;
 }
-
-header {border-left: 8px solid #da53ad;}
-#about {border-left: 8px solid #53da6a;}
-#amenities {border-left: 8px solid #93a726;}
-#rooms {border-left: 8px solid #b6238a;}
-#restaurant {border-left: 8px solid #0e925f;}
-#gallery {border-left: 8px solid #250eaa;}
