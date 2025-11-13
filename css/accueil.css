@@ -30,3 +30,20 @@ header .content p {
     margin: 2vh 0 0 2vh;
     text-align: justify;
 }
+
+header .content p::first-letter {
+    font-size: 5rem;
+    color: var(--primary-color);
+    float: left;
+    margin-right: 0.5rem;
+}
+
+#accueil .content::before{
+    position: absolute;
+    content: 'H';
+    font-size: 50vh;
+    font-weight: bold;
+    opacity: 0.2;
+    top: -25vh;
+    left: -15vh;
+}
