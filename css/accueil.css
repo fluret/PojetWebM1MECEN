@@ -1,0 +1,9 @@
+header {
+    background-image: url(/pics/home.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header .logo img {
+    width: 80%;
+}
