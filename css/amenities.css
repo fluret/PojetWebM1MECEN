@@ -7,4 +7,17 @@
     grid-template-rows: 1fr 2fr;
     align-items: center;
     justify-items: center;
+    gap: 2rem;
+}
+
+.content #activities-list{
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+}
+
+.content #explications{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(226, 56, 56, 0.3);
 }
