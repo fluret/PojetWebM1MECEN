@@ -1,0 +1,58 @@
+#about .content {
+    display: flex;
+    flex-direction: row;
+    padding: 0 5%;
+    gap: 2rem;
+}
+
+#about .images {
+    position: relative;
+    width: 50%;
+    height: 80%;
+    align-self: center;
+}
+
+#about #explis {
+    position: relative;
+    width: 50%;
+    height: 80%;
+    align-self: center;
+}
+
+#about .content img {
+    width: 40%;
+    height: 50%;
+    position: absolute;
+}
+
+.images img:nth-child(1) { 
+    top: 0; 
+    left: 0; 
+}
+
+.images img:nth-child(2) { 
+    bottom: 5%; 
+    left: 10%; 
+}
+
+.images img:nth-child(3) { 
+    bottom: 30%; 
+    left: 35%; 
+}
+
+.images img:nth-child(4) { 
+    top: 5%; 
+    left: 55%; 
+}
+
+#about #explis span {
+    display: block;
+    line-height: 2rem;
+    text-align: justify;
+    font-size: 2vh;
+    letter-spacing: 0.2rem;
+    padding: 1rem;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box; /* ← Inclut le padding dans les 100% */
+}
