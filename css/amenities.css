@@ -10,10 +10,15 @@
     gap: 2rem;
 }
 
-.content #activities-list{
-    height: 100%;
-    width: 100%;
-    background-color: aqua;
+.content #activities-list {
+    width: 90%;
+    background: rgba(63, 156, 193, 0.6);
+    padding: 0.5%;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 1rem;
+    grid-column-gap: 1rem;
 }
 
 .content #explications{
