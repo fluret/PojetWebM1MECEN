@@ -26,3 +26,17 @@
     width: 100%;
     background-color: rgba(226, 56, 56, 0.3);
 }
+
+.activities {
+    font-size: large;
+    font-weight: bolder;
+    padding: 0.5rem;
+}
+
+#amenities #activities-list:hover {
+    cursor: pointer;
+}
+
+#amenities .content i {
+    margin: 5px 20px 0 10px;
+}
