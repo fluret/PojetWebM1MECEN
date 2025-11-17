@@ -35,3 +35,27 @@
     grid-area: recette4;
     background-image: url("/pics/deutch-food.jpg");
 }
+
+#restaurant .content div h2 {
+    font-size: 4vh;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    padding: 1vh 0;
+    width: 90%;
+    border-radius: 15px;
+    backdrop-filter: blur(30px);
+    box-shadow: Opx Opx 30px rgba(227. 228, 237. 0.37);
+    border: 2px solid rgba(255, 255, 255, 0.18);
+}
+
+#restaurant .content div p {
+    font-size: 1.1rem;
+    color: white;
+    text-align: justify;
+    padding: 1vh;
+    border-radius: 15px;
+    backdrop-filter: blur(30px);
+    box-shadow: Opx Opx 30px rgba(227. 228, 237. 0.37);
+    border: 2px solid rgba(255, 255, 255, 0.18);
+}
