@@ -1,0 +1,14 @@
+#galery .content{
+    height: 60vh;
+    width: 80%;
+    margin: 5vh auto;
+}
+
+.gallery {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: start;
+    gap: 5px;
+}
