@@ -33,7 +33,6 @@ header, #about, #amenities, #rooms, #restaurant, #gallery {
 
 .content {
     grid-area: content;
-    background-color: #18c753;
 }
 
 #about, #amenities, #rooms, #restaurant, #gallery {
