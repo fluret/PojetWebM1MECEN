@@ -55,3 +55,11 @@
 .card[for="c8"] {
     background-image: url(../pics/g8.jpg);
 }
+
+input {
+    display: none;
+}
+
+input:checked+label {
+    flex: 20;
+}
