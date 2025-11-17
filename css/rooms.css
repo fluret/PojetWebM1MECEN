@@ -22,3 +22,19 @@
     border-radius: 20px 20px 0px 0px;
     border-bottom: 4px solid var(--primary-color);
 }
+
+#rooms .text {
+    padding: 0px 1.5vh;
+    text-align: center;
+}
+
+#rooms .text h3 {
+    font-size: 3vh;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+#rooms .text p {
+    font-size: 1.2rem;
+    color: grey;
+}
