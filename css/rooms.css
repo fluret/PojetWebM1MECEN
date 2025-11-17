@@ -16,3 +16,9 @@
 #room3 {
     grid-column: 4 / 5;
 }
+
+#rooms img {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    border-bottom: 4px solid var(--primary-color);
+}
