@@ -47,6 +47,9 @@
     backdrop-filter: blur(30px);
     box-shadow: Opx Opx 30px rgba(227. 228, 237. 0.37);
     border: 2px solid rgba(255, 255, 255, 0.18);
+    position: absolute;
+    top: 102%;
+    transition: all 0.5s ease-in-out;
 }
 
 #restaurant .content div p {
@@ -58,4 +61,20 @@
     backdrop-filter: blur(30px);
     box-shadow: Opx Opx 30px rgba(227. 228, 237. 0.37);
     border: 2px solid rgba(255, 255, 255, 0.18);
+    position: absolute;
+    transition: all 0.5s ease-in-out;
+    bottom: 102%;
+}
+
+#restaurant .content div {
+    position: relative;
+    overflow: hidden;
+}
+
+#restaurant .content div:hover h2 {
+    top: 0px;
+}
+
+#restaurant .content div:hover p {
+    bottom: 0px;
 }
